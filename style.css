@@ -65,6 +65,8 @@ button a {
 
 /* main part start here */
 
+
+
 .instra {
 
     margin-top: 150px;
@@ -93,6 +95,7 @@ button a {
     width: 1920px;
     height: 4867px;
     padding: 10px 425px;
+    align-items: center;
 
 }
 
@@ -134,8 +137,7 @@ button a {
 .first {
     color: #272727;
     text-align: center;
-    font-size: 24
-    font-style: normal;
+    font-size: 24 font-style: normal;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
@@ -162,4 +164,77 @@ button a {
     line-height: 35px;
     text-decoration-line: underline;
     margin: 20px 180px;
+}
+
+.Support {
+    width: 1400px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 50px;
+
+
+
+
+}
+
+.Support-picure-containar {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    margin: 130px 0;
+
+}
+
+.hot-deal {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 200px;
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    padding: 0 48px 0 40px;
+    margin-left: 140px;
+    
+    
+
+}
+
+.hot-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.colur {
+    color: #E55473;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.info-discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 15px;
+    width: 594px;
+
+
+}
+
+#button-class {
+    display: inline-flex;
+    padding: 20px 43px;
+    margin-left: 200px;
+    gap: 10px;
 }
